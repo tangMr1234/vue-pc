@@ -1,0 +1,82 @@
+/* 以下是覆盖样式 */
+.bighome .el-header {
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 2px 0 10px #CCC;
+    z-index: 10;
+    overflow: hidden;
+    background: #12609d;
+}
+
+.bighome .el-header i {
+    color: #fff;
+    margin-right: 6px;
+}
+
+.bighome .is-active i {
+    color: #39aef5;
+}
+
+.bighome .no_hover {
+    background: none !important;
+    border-bottom: 0 !important;
+}
+
+.bighome {
+    background: url(../assets/bg.gif) left top !important;
+    background-size: 100% 100%;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bighome .el-card, .bighome .el-table td, .bighome .el-table th.is-leaf, .bighome .el-table--border, .bighome .el-table__fixed-right-patch {
+    border: 1px solid #324d79;
+}
+
+.bighome .el-card__header {
+    /*border-bottom: 1px solid #324d79;*/
+    border-bottom: none;
+}
+
+.bighome .el-table, .bighome .el-table *, .bighome .toolbar, .bighome .toolbar *, .bighome .el-table--border::after, .bighome .el-table--group::after, .bighome .el-table::before {
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.bighome .toolbar, .bighome .toolbar * {
+    background-color: transparent !important;
+}
+
+.bighome .el-table__body tr.hover-row > td, .bighome .el-table--enable-row-hover .el-table__body tr:hover > td, .bighome .el-table__body tr.current-row > td {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bighome .refer a {
+    color: #cbd823;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.bighome ::-webkit-scrollbar {
+    background-color: #F5F5F5;
+}
+
+/*!*定义滚动条轨道 内阴影+圆角*!*/
+.bighome ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 1px 1px 1px #324d79;
+    background-color: #0a0e26;
+}
+
+/*!*定义滑块 内阴影+圆角*!*/
+.bighome ::-webkit-scrollbar-thumb {
+    background-color: #555;
+}
+
+.bighome ::-webkit-scrollbar-corner {
+    background: #0a0e26;
+}
+
+.bighome .el-alert--primary {
+    padding: 18px 20px 0px 20px !important;
+}

@@ -1,0 +1,175 @@
+[v-cloak] {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.el-submenu [class^=fa], .el-menu-item [class^=fa] {
+  vertical-align: baseline;
+  margin-right: 10px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.toolbar {
+  background: #f2f2f2;
+  padding: 10px;
+
+  .el-form-item {
+    margin-bottom: 10px;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .2s ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.btn_xs {
+  padding: 5px 10px !important
+}
+
+.el-dropdown.btn_xs {
+  padding: 0 5px !important
+}
+
+.toolbar .el-form-item__label {
+  padding: 0;
+}
+
+.el-button + .el-button {
+  margin-left: 5px;
+}
+
+#nprogress .bar {
+  height: 3px;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+a {
+  color: #606266;
+  text-decoration: none;
+}
+
+/*
+自定义的样式
+ */
+
+//lw-badge
+$white: #fff;
+$near-black: #212529;
+
+.lw-badge-primary {
+  color: $white;
+  background-color: #007bff !important;
+}
+
+.lw-badge-secondary {
+  color: $white;
+  background-color: #6c757d !important;
+}
+
+.lw-badge-success {
+  color: $white;
+  background-color: #28a745 !important;
+}
+
+.lw-badge-danger {
+  color: $white;
+  background-color: #dc3545 !important;
+}
+
+.lw-badge-warning {
+  color: $near-black !important;
+  background-color: #ffc107 !important;
+}
+
+.lw-badge-info {
+  color: $white;
+  background-color: #17a2b8 !important;
+}
+
+.lw-badge-light {
+  color: $near-black !important;
+  background-color: #f8f9fa !important;;
+}
+
+.lw-badge-dark {
+  color: $white;
+  background-color: #343a40 !important;
+}
+
+.lw-badge {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+}
+
+.lw-badge-pill {
+  padding-right: .6em;
+  padding-left: .6em;
+  border-radius: 10rem;
+}
+
+//清除浮动
+.lw-clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.lw-clearfix {
+  zoom: 1;
+}
